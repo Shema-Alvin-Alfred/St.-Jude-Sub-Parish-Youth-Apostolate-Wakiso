@@ -157,24 +157,8 @@ form .send-button {
 .btn {
     margin: 10px 10px;
 }
-@media(max-width:1327px){
-    body {
-        display: block;
-    }
-}
-nav ul {
-    display: block;
-}
-nav a {
-    margin-top: 20px;
-    margin-right: 30px;
-    gap: 20px;
-}
-.crft-1 img {
-    height: 30vh;
-    width: 70%;
-    margin-right: 30px;
-}
+
+
 
 
 
