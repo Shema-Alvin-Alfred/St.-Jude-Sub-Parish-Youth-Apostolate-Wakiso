@@ -1,8 +1,8 @@
 body {
     background: #f4f4f4;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 1.5pt;
-    padding: 0;
+    margin: 1.5pt; /* Creates Space around an Element */
+    padding: 5px; /* Generates Space inside an Element */
     line-height: 1.6;
     color: #333 ;
     font-size: 18px;  
@@ -10,22 +10,22 @@ body {
 }
 
 .logo img {
-    width: 150px;
-    border-radius: 10%;
+    width: 150px; /* Sets the horizontal size of an element */
+    border-radius: 10%; /* Shapes the border */
     margin: 9px 9px;
     
 }
 
 
-.Container {
+.Container { /* Class */
     background-color: #2980b9;
-    display: flex;
-    justify-content: space-between;
+    display: flex; /*Arranges, aligns and distributes space among items in a container */
+    justify-content: space-between; /*Equal Spacing, Edge Alignment & Gap Creation */
    
     
 
 }
-.contact-info {
+.contact-info { /* Class  */
     background-color: rgb(9, 9, 50);
     color: white;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -56,10 +56,10 @@ header nav li {
 header nav a {
     font-weight: bold;
     font-size: 20px;
-    text-decoration: none;
+    text-decoration: none; /* Creates none Visual decoratives line to text */
     
 }
-.crft-1 img {
+.crft-1 img { /* Class */
     width: 1040px;
     border-radius: 25px;
     margin: 9px;
@@ -67,25 +67,25 @@ header nav a {
 
     
 }
-.party-1 img {
+.party-1 img { /*Class */
      width: 500px;
     border-radius: 25px;
     margin: 8px;
-    float: right;
+    float: right; /* Takes an Element out of the normal document flow and places it to the Left or Right  */
     
 }
-.prototype-1 img {
+.prototype-1 img { /* Class */
      width: 500px;
     border-radius: 25px;
     margin: 8px;
     
 }
-.Train-1 video {
+.Train-1 video { /* Class */
      width: 500px;
     border-radius: 25px;
     margin: 8px;
 }
-.sample-1 video {
+.sample-1 video { /* Class */
      width: 500px;
     border-radius: 25px;
     margin: 8px;
@@ -131,20 +131,20 @@ form .send-button {
     border-radius: 5px;
     font-weight: bold;
 } 
-.send-button:hover {
+.send-button:hover { /* It's used to Select and apply styles to an element only when the user's mouse cursor is positioned over it */
     background-color: rgb(206, 19, 19);
 }
-.container-1 {
+.container-1 { /* Class */
    padding: 50px;
 }
-.card {
+.card { /*Class */
     background-image: url(Images/HD-wallpaper-gray-vertical-lines-abstract.jpg);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     float: left;
     margin-top: 40px;
 }
-.card-2 {
+.card-2 { /*Class */
     background-image: url(Images/HD-wallpaper-gray-vertical-lines-abstract.jpg);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -156,6 +156,64 @@ form .send-button {
 }
 .btn {
     margin: 10px 10px;
+}
+@media (max-width: 900px) {
+    .Container {
+         width: auto;
+        padding: 10px;
+        
+        display: block;
+    }
+   
+    .background-2  {
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    .bg-light {
+         width: auto;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    .card {
+         width: auto;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    .card-2 {
+         width: auto;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    .embed-repsonsive embed-repsonsive-16by9 {
+         width: auto;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    .contact-info {
+         width: auto;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    .bg-warning p-3 {
+         width: auto;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    .container-1 {
+         width: auto;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+   
 }
 
 
